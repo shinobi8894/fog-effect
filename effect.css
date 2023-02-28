@@ -1,0 +1,45 @@
+
+body {
+  background-color: #000;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+}
+
+h1 {
+	color: #999;
+	font-family: 'Lato', helvetica, arial, sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+}
+
+canvas {
+  background-color: #111;
+}
+footer {
+	background: rgba(0,0,0,0.35);
+	border-radius: 0 10px 0px 0;
+	bottom: 0px;
+	color: #fff;
+	font-family: 'Lato', helvetica, arial, sans-serif;
+	font-size: 11px;
+	font-weight: 300;
+	padding: 8px 12px 8px 12px;
+	position: absolute;
+	text-shadow: -1px 1px #000000;
+	text-transform: uppercase;
+	z-index: 2;	
+}
+footer a {
+	color: #fff;
+	text-decoration: none;
+}
+footer a:hover {
+	color: #ddd;
+}
